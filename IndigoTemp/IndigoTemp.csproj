@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\manage\assets\css\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\css\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\images\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\charts\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\forms\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\icons\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\samples\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\tables\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\pages\ui-features\.DS_Store" />
+    <None Include="wwwroot\manage\assets\fonts\scss\.DS_Store" />
+    <None Include="wwwroot\manage\assets\images\.DS_Store" />
+    <None Include="wwwroot\manage\assets\scss\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Upload\Product\" />
+  </ItemGroup>
+
+</Project>
